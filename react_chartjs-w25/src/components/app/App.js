@@ -109,7 +109,7 @@ export const optionsTable = {
 
 function App() {
   return (
-    <div className="App">
+    <>
       {/* PieChart */}
       <Chart
       chartType="PieChart"
@@ -242,7 +242,7 @@ function App() {
       data={dataTable}
       options={optionsTable}
     />
-    </div>
+    </>
 
     
   );
