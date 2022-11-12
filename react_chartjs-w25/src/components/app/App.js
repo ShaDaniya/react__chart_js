@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import '../../style/App.css'
 import { Chart } from "react-google-charts";
 
 //PieChart
